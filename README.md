@@ -35,10 +35,10 @@ url: "http://localhost:3000" # the base hostname & protocol for your site
 username: Lorem Ipsum
 user_description: Anon Developer at Lorem Ipsum Dolor
 user_title: Anon Developer
-email: anon@anon.com
-twitter_username: lorem_ipsum
+email: matilda.delgado@fas.harvard.edu
+twitter_username: matilda_delg
 github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
+gplus_username:  delgado.matilda@gmail.com
 ```
 
 **Don't forget to change your url before you deploy your site!**

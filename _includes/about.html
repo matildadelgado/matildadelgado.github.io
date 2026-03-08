@@ -1,30 +1,53 @@
- <div class="user-details">
-  <h1> My Expertise </h1>
-  <p> {{site.user_description}} </p>
+<!-- Main Title -->
+<h1 style="margin-bottom: 20px; text-align: center;">About Me</h1>
+
+<!-- Top section: Current Positions + Photo -->
+<div style="display: flex; gap: 30px; align-items: flex-start; flex-wrap: wrap; padding-left: 20px; padding-right: 20px;">
+
+  <!-- Left column: Current Positions -->
+  <div style="flex: 1; min-width: 320px; text-align: center;">
+   
+    <p>
+      I am a postdoctoral fellow at Harvard University and MPP Munich. 
+</p>
+<p> 
+I develop theoretical tools to uncover the structure of quantum gravity and its low-energy signatures, particularly beyond supersymmetric settings. My work draws on string theory and general consistency principles, including ideas from the swampland program, to determine which effective field theories and physical objects can arise from a consistent theory of (non-supersymmetric) quantum gravity. 
+</p>
+<p>
+My research aims to chart the non-supersymmetric landscape and to provide sharp tests of swampland conjectures beyond the regime of supersymmetry.
+    </p>
+
+    <!-- Logos for Current Positions -->
+    <div style="display: flex; justify-content: center; gap: 20px; margin-top: 15px; flex-wrap: wrap;">
+      <img src="/assets/mpp.png" alt="MPP logo" style="width: 150px; height: auto;">
+      <img src="/assets/harvard.png" alt="Harvard logo" style="width: 200px; height: 60px;margin-top: 10px;">
+    </div>
+  </div>
+
+  <!-- Right column: Profile Photo -->
+  <div style="flex-shrink: 0; display: flex; align-items: flex-start;">
+    <br>
+    <br>
+    <img src="/assets/photo.jpg" alt="Profile photo" style="width: 340px;margin-top: 20px; max-width: 100%; height: auto; border-radius: 8px;">
+  </div>
+
 </div>
-  <div class="user">
-    <div class="tech">
-      <h2>Design</h2>
-      <i class="devicon-html5-plain-wordmark"></i>
-      <i class="devicon-bootstrap-plain-wordmark colored"></i>
-      <i class="devicon-sass-original colored"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
-    </div>
-    <div class="tech">
-      <h2>Code</h2>
-      <i class="devicon-javascript-plain colored"></i>
-      <i class="devicon-react-original-wordmark colored"></i>
-      <i class="devicon-nodejs-plain-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
-    </div>
-    <div class="tech">
-      <h2>Tools</h2>
-      <i class="devicon-git-plain"></i>
-      <i class="devicon-gulp-plain colored"></i>
-      <i class="devicon-atom-original-wordmark"></i>
-      <p>Mumblecore hexagon kombucha, pitchfork four loko raclette intelligentsia master cleanse.
-        Vinyl XOXO lumbersexual</p>
-    </div>
+
+<!-- Bottom section: Education -->
+<div style="margin-top: 40px; text-align: center; padding-left: 20px; padding-right: 20px;">
+  <h2>Education</h2>
+  <p>
+    I performed my doctoral studies at the Institute of Theoretical Physics in Madrid (IFT UAM-CSIC).
+    Before that, I studied high energy physics at Institut Polytechnique de Paris and ETH Zürich.
+  </p>
+
+  <!-- Education logos -->
+  <div style="display: grid; grid-template-columns: repeat(5, auto); gap: 20px; justify-content: center; align-items: center; margin-top: 15px;">
+    <img src="/assets/ift.jpg" alt="IFT logo" style="width: 120px; height: auto;">
+    <img src="/assets/uam.jpg" alt="UAM logo" style="width: 120px; height: auto;">
+    <img src="/assets/x.png" alt="Polytechnique logo" style="width: 100px; height: auto;">
+    <img src="/assets/saclay.png" alt="Saclay logo" style="width: 100px; height: auto;">
+    <img src="/assets/eth.png" alt="ETH logo" style="width: 100px; height: auto;">
+  </div>
 </div>
+
