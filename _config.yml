@@ -38,10 +38,6 @@ plugins:
 username: "Matilda<br>Delgado" 
 user_description: I am a researcher in theoretical high energy physics. My research focuses on Quantum Gravity, String Theory and the Swampland Program. I currently hold a joint postdoctoral research position between the Max-Planck Insitute for physics in Munich and Harvard University in Cambridge (MA).  
 user_title: Postdoctoral Researcher at MPP Munich and Harvard University
-email: matilda.delgado@fas.harvard.edu
-twitter_username: matilda_delg
-github_username:  matildadelgado
-gplus_username: delgado.matilda@gmail.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
