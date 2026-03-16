@@ -25,9 +25,9 @@ description: >- # this means to ignore newlines until "baseurl:"
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://watilda.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://matildadelgado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: matilda_delg
-github_username:  watilda
+github_username:  matildadelgado
 
 # Build settings
 theme: minima
@@ -40,7 +40,7 @@ user_description: I am a researcher in theoretical high energy physics. My resea
 user_title: Postdoctoral Researcher at MPP Munich and Harvard University
 email: matilda.delgado@fas.harvard.edu
 twitter_username: matilda_delg
-github_username:  
+github_username:  matildadelgado
 gplus_username: delgado.matilda@gmail.com
 
 # Exclude from processing.
