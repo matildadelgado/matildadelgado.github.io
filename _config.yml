@@ -21,7 +21,7 @@
 title: Matilda
 email: matilda.delgado@fas.harvard.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Personal Website of Matilda Delgado's research.
+  Personal Research Website of Matilda Delgado.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matildadelgado.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: matilda_delg
